@@ -1,0 +1,23 @@
+Greddy Algorithm:
+
+car fueling problem: refule at the farest station for the first refill is a save move (optimal move)
+
+A ---G1 ---G ---B
+
+A----G1 -- G2---G ---B should refill at g to save move
+A----G1---G---G2---B should skip G1.
+
+- Make a greddy choice
+- Prove that it is a safe move
+- reduce to a subproblem.
+- solve the subproblem the same way.
+
+------|--|--|---|---------
+      2  3  4   7
+
+
+Knapsack problem:
+
+weight = w1..wn, value = v1...vn, subjec o W.
+
+sort with nlog(n), then use max which runs n. nlog(n) +n = nlog(n)
