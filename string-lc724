@@ -1,0 +1,4 @@
+two side of the string comparision, get total first, then keep one side only. infer the other side with left side.
+range(a,b) only goes from a to b-1.
+use enumeration. for i,x in enumerate(nums)
+[:], [::2]
